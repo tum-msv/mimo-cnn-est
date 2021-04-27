@@ -2,7 +2,7 @@
 
 This code was used to generate the figures in the article
 
-B. Fesl, N. Turan, M. Koller, and Wolfgang Utschick, _A Low-Complexity MIMO Channel Estimator with Implicit Structure of a Convolutional Neural Network_, Submitted for possible publication, arXiv pre-print: 
+B. Fesl, N. Turan, M. Koller, and W. Utschick, _A Low-Complexity MIMO Channel Estimator with Implicit Structure of a Convolutional Neural Network_, Submitted for possible publication, arXiv pre-print: https://arxiv.org/abs/2104.12667.
 
 ## Abstract
 A low-complexity convolutional neural network estimator which learns the minimum mean squared error channel estimator for single-antenna users was recently proposed. We generalize the architecture to the estimation of MIMO channels with multiple-antenna users and incorporate complexity-reducing assumptions based on the channel model. Learning is used in this context to combat the mismatch between the assumptions and real scenarios where the assumptions may not hold. We derive a high-level description of the estimator for arbitrary choices of the pilot sequence. It turns out that the proposed estimator has the implicit structure of a two-layered convolutional neural network, where the derived quantities can be relaxed to learnable parameters. 
@@ -11,7 +11,7 @@ Numerical results demonstrate performance gains compared to state-of-the-art alg
 
 
 ## Installation Notes
-This code is written in Python (https://www.python.org) and uses _TensorFlow_ together with _Keras_ as backend.
+This code is written in _Python_ (https://www.python.org) and uses _TensorFlow_ together with _Keras_ as backend.
 The code was tested with _Python_ version 3.7, _TensorFlow_ version 2.2.0.
 ## License
 This code is licensed under 3-clause BSD License:
