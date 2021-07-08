@@ -2,7 +2,9 @@
 
 This code was used to generate the figures in the article
 
-B. Fesl, N. Turan, M. Koller, and W. Utschick, _A Low-Complexity MIMO Channel Estimator with Implicit Structure of a Convolutional Neural Network_, in press, arXiv pre-print: https://arxiv.org/abs/2104.12667.
+B. Fesl, N. Turan, M. Koller, and W. Utschick, _A Low-Complexity MIMO Channel Estimator with Implicit Structure of a Convolutional Neural Network_, 2021, in press, arXiv pre-print: https://arxiv.org/abs/2104.12667. 
+
+The paper is accepted for the 22nd IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) 2021.
 
 ## Abstract
 A low-complexity convolutional neural network estimator which learns the minimum mean squared error channel estimator for single-antenna users was recently proposed. We generalize the architecture to the estimation of MIMO channels with multiple-antenna users and incorporate complexity-reducing assumptions based on the channel model. Learning is used in this context to combat the mismatch between the assumptions and real scenarios where the assumptions may not hold. We derive a high-level description of the estimator for arbitrary choices of the pilot sequence. It turns out that the proposed estimator has the implicit structure of a two-layered convolutional neural network, where the derived quantities can be relaxed to learnable parameters. 
