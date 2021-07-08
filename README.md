@@ -7,10 +7,28 @@ B. Fesl, N. Turan, M. Koller, and W. Utschick, _A Low-Complexity MIMO Channel Es
 The paper is accepted for the 22nd IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) 2021.
 
 ## Abstract
-A low-complexity convolutional neural network estimator which learns the minimum mean squared error channel estimator for single-antenna users was recently proposed. We generalize the architecture to the estimation of MIMO channels with multiple-antenna users and incorporate complexity-reducing assumptions based on the channel model. Learning is used in this context to combat the mismatch between the assumptions and real scenarios where the assumptions may not hold. We derive a high-level description of the estimator for arbitrary choices of the pilot sequence. It turns out that the proposed estimator has the implicit structure of a two-layered convolutional neural network, where the derived quantities can be relaxed to learnable parameters. 
-We show that by using discrete Fourier transform based pilots the number of learnable network parameters decreases significantly and the online run time of the estimator is reduced considerably, where we can achieve linearithmic order of complexity in the number of antennas. 
-Numerical results demonstrate performance gains compared to state-of-the-art algorithms from the field of compressive sensing or covariance estimation of the same or even higher computational complexity. The simulation code is available online.
-
+A convolutional neural network estimator which
+learns the minimum mean squared error channel estimator for
+single-antenna users was recently proposed. We generalize the
+architecture to the estimation of MIMO channels with multipleantenna
+users and incorporate assumptions, such as a high number
+of antennas and a single propagation cluster, which reduces
+the computational complexity tremendously. Learning is used in
+this context to combat the mismatch between the assumptions
+and real scenarios with a limited number of antennas and many
+propagation clusters. We derive a high-level description of the
+estimator for arbitrary choices of the pilot sequence. It turns
+out that the proposed estimator has the implicit structure of
+a two-layered convolutional neural network, where the derived
+quantities can be relaxed to learnable parameters. We show that
+by using discrete Fourier transform based pilots the number of
+network parameters decreases significantly and the online run
+time of the estimator is reduced considerably, where we can
+achieve linearithmic order of complexity in the number of antennas.
+Numerical results display performance gains compared to
+state-of-the-art algorithms from the field of compressive sensing
+or covariance estimation of the same or higher computational
+complexity. The simulation code is available online.
 
 ## Installation Notes
 This code is written in _Python_ (https://www.python.org) and uses _TensorFlow_ together with _Keras_ as backend.
