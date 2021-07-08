@@ -10,7 +10,7 @@ The paper is accepted for the 22nd IEEE International Workshop on Signal Process
 A convolutional neural network estimator which
 learns the minimum mean squared error channel estimator for
 single-antenna users was recently proposed. We generalize the
-architecture to the estimation of MIMO channels with multipleantenna
+architecture to the estimation of MIMO channels with multiple antenna
 users and incorporate assumptions, such as a high number
 of antennas and a single propagation cluster, which reduces
 the computational complexity tremendously. Learning is used in
