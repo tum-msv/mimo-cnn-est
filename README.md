@@ -2,9 +2,9 @@
 
 This code was used to generate the figures in the article
 
-B. Fesl, N. Turan, M. Koller, and W. Utschick, _A Low-Complexity MIMO Channel Estimator with Implicit Structure of a Convolutional Neural Network_, 2021, in press, arXiv pre-print: https://arxiv.org/abs/2104.12667. 
+>B. Fesl, N. Turan, M. Koller and W. Utschick, "A Low-Complexity MIMO Channel Estimator with Implicit Structure of a Convolutional Neural Network," _IEEE 22nd International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)_, Lucca, Italy, 2021, pp. 11-15, doi: 10.1109/SPAWC51858.2021.9593216.
 
-The paper is accepted for the 22nd IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) 2021.
+Link to the paper: https://ieeexplore.ieee.org/abstract/document/9593216.
 
 ## Abstract
 A convolutional neural network estimator which
